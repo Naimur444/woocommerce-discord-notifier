@@ -1,0 +1,13 @@
+{
+  "name": "woocommerce-discord-notifier",
+  "version": "1.0.0",
+  "scripts": {
+    "css": "cross-env NODE_ENV=production node tasks/css-build.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "cross-env": "^7.0.3",
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.35"
+  }
+}

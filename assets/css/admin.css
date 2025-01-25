@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wcdn-settings {
+    @apply wcdiscord-p-6;
+}
+
+.wcdn-webhook-row {
+    @apply wcdiscord-flex wcdiscord-items-center wcdiscord-gap-4 wcdiscord-mb-4;
+}
+
+.wcdn-webhook-input {
+    @apply wcdiscord-flex-1 wcdiscord-p-2 wcdiscord-border wcdiscord-border-gray-300 wcdiscord-rounded;
+}
+
+.wcdiscord-btn {
+    @apply wcdiscord-px-4 wcdiscord-py-2 wcdiscord-rounded wcdiscord-transition-colors;
+}
+
+.wcdiscord-btn-primary {
+    @apply wcdiscord-bg-blue-600 wcdiscord-text-white hover:wcdiscord-bg-blue-700;
+}
+
+.wcdiscord-btn-secondary {
+    @apply wcdiscord-bg-gray-500 wcdiscord-text-white hover:wcdiscord-bg-gray-600;
+}
+
+.wcdiscord-btn-danger {
+    @apply wcdiscord-bg-red-500 wcdiscord-text-white hover:wcdiscord-bg-red-600;
+}
