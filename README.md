@@ -55,6 +55,7 @@ You can use the following placeholders:
 - `{order_id}`: The WooCommerce order ID.
 - `{total}`: The total amount of the order.
 - `{customer_name}`: The customer's full name.
+- `{statud}`: The status of the order.
 
 = Does the plugin work with custom WooCommerce statuses? =
 Yes, the plugin can be customized to support custom statuses if needed.
